@@ -1,0 +1,7 @@
+# City Energy Analyst (CEA) Database for Canada
+
+This repository contains a database that extends the capabilities of the City Energy Analyst (CEA) urban building energy modelling software to the Canadian context. The database is provided as a single zipped folder named CEA-Database-Canada that retains the standard CEA database hierarchy.  It was developed and tested for compatibility with CEA v4.0.0-beta.4 (Windows version). Although the dataset may be adapted for use with other CEA versions, minor adjustments to paths or related specifications may be required.
+
+The database folder is organized into three main sections: Archetypes, Assemblies, and Components. Although the files are stored separately, they are interlinked through shared category names and code fields and function together within the CEA workflow. During a CEA simulation setup, the database entries are automatically linked to scenario inputs, and the scenario specifications from the database are selected for the user. Users may also manually select alternative code-period definitions where needed.  
+
+The information in the files, such as building design and operation characteristics are obtained from the National Energy Code of Canada for Buildings (NECB) and additional sources, including American Society of Heating, Refrigerating and Air-Conditioning Engineers (ASHRAE) standards, the Canadian Board for Harmonized Construction Codes, and the Canada Energy Regulator.
